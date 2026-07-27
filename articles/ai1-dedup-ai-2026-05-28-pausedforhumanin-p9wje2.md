@@ -6,7 +6,7 @@ title: "未知コードベースを10分で把握する：Claude APIで知識グ
 emoji: "🕸️"
 type: "tech"
 topics: ["claude", "python", "anthropic", "知識グラフ", "開発効率化"]
-published: true
+published: false
 ---
 
 ## 「来週からこのリポジトリよろしく」を乗り越えろ
