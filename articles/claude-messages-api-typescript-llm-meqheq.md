@@ -3,7 +3,7 @@ title: "Claude Messages APIで自作エージェントに人間承認ゲート�
 emoji: "📝"
 type: "tech"
 topics: ["claude", "typescript", "llm", "nodejs", "agent"]
-published: true
+published: false
 ---
 
 先週、社内用に書いた小さなエージェントスクリプトに「不要なファイルを消して」と頼んだら、確認なしで `rm` が実行されて青ざめたことがある。Claude Code の CLI ならフックで危険なコマンドを止められるが、これは Messages API を直接叩いて組んだ自前のエージェントだった。ツール呼び出し(Tool Use)そのものには承認機構が無い。止めたければ自分でループの中に承認ゲートを作るしかない。

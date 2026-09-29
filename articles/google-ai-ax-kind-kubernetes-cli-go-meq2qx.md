@@ -3,7 +3,7 @@ title: "GoogleのAIエージェント基盤「ax」をkindクラスタで動か�
 emoji: "🧭"
 type: "tech"
 topics: ["kubernetes", "ai", "cli", "go", "devops"]
-published: true
+published: false
 ---
 
 ## エージェントを「kubectl」で動かす、という発想
